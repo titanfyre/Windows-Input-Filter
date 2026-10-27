@@ -1,0 +1,8 @@
+{
+  "Schema": 1,
+  "Product": "Windows-Input-Filter",
+  "DriverVersion": "0.1.0.0",
+  "SigningPending": true,
+  "DemoSeconds": 3600,
+  "Publication": "SDK and sources; installable payload pending Microsoft signature."
+}

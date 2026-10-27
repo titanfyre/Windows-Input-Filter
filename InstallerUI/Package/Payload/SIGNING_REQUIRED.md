@@ -1,0 +1,1 @@
+This new demo identity requires its own Microsoft-signed SYS and catalogs. Old Interceptor payloads are deliberately not included. Installation remains blocked until the matching signed return is imported.

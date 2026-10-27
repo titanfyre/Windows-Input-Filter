@@ -1,0 +1,14 @@
+{
+  "Name": "Windows-Input-Filter",
+  "DisplayName": "Windows Input Filter",
+  "Service": "WindowsInputFilter",
+  "DriverFile": "WindowsInputFilter.sys",
+  "Version": "0.1.0.0",
+  "InputMask": 3,
+  "ControllerMask": 15,
+  "Packages": [
+    "WindowsInputFilterKeyboard.inf",
+    "WindowsInputFilterMouse.inf",
+    "WindowsInputFilterControl.inf"
+  ]
+}
