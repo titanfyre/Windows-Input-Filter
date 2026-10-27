@@ -1,11 +1,8 @@
 # Windows Input Filter: installation
 
-Version 0.1.0.0 requires a matching Microsoft-signed package. Until it returns,
-SDK and example builds are available, but installer downloads are pending. Do
-not reuse an earlier driver/catalog under the new identity or disable signature
-enforcement.
+Version 0.1.0.0 has a verified matching Microsoft-signed package. The [demo ZIP](https://github.com/titanfyre/Windows-Input-Filter/releases/download/v0.1.0.0/Windows-Input-Filter-0.1.0.0-Demo.zip) contains both installers; the SDK ZIP contains source and the signed binary build inputs. Never rename another edition's driver or disable signature enforcement.
 
-When available, run `InputFilterSetup.exe` as administrator and choose Install /
+Run `InputFilterSetup.exe` as administrator and choose Install /
 reinstall. Restart when requested. Console automation uses
 `InputFilterSetupConsole.exe /install` or `/uninstall`.
 

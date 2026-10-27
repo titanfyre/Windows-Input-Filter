@@ -4,10 +4,9 @@ Receive, edit and forward **keyboard, mouse and compatible HID/XInput/GIP contro
 Windows 10 1709+ / Windows 11 x64. The library manages the capture session and
 automatically selects the right transport when you submit an input batch.
 
-**Demo 0.1.0.0 — Microsoft signing pending.** SDK source, console examples and
-the input viewer can be built now. Installable setup EXEs will be published after
-the matching Microsoft-signed package returns. Existing signed Interceptor
-binaries are not redistributed under this new driver identity.
+**Demo 0.1.0.0 — Microsoft-signed kernel driver.** One hour per Windows kernel boot. Use the matching driver, SDK and installers from this edition.
+
+[Download demo ZIP](https://github.com/titanfyre/Windows-Input-Filter/releases/download/v0.1.0.0/Windows-Input-Filter-0.1.0.0-Demo.zip) · [UI installer](https://github.com/titanfyre/Windows-Input-Filter/releases/download/v0.1.0.0/InputFilterSetup.exe) · [Console installer](https://github.com/titanfyre/Windows-Input-Filter/releases/download/v0.1.0.0/InputFilterSetupConsole.exe) · [SDK + source](https://github.com/titanfyre/Windows-Input-Filter/releases/download/v0.1.0.0/Windows-Input-Filter-0.1.0.0-SDK.zip)
 
 [API](docs/API.md) · [Build](docs/BUILD.md) · [Installation](docs/INSTALLATION.md) ·
 [Compatibility](docs/COMPATIBILITY.md) · [Examples](ExamplesConsole/README.md)
@@ -51,7 +50,7 @@ The input projects and Windows Virtual Devices use a shared resident
 `DemoSessionClock.sys` with separate edition slots. The original demos retain
 their own separate clock identity. No paid Release edition is included here.
 
-## Install when the signed package is available
+## Install the driver
 
 Open **InputFilterSetup.exe**, accept the administrator prompt and choose
 **Install / reinstall**. Restart when requested. Console automation uses

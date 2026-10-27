@@ -7,3 +7,8 @@
 *.ilk
 *.log
 *.dmp
+
+/InstallerUI/Package/Payload/*.sys
+/InstallerUI/Package/Payload/*.cat
+/InstallerUI/Package/Payload/Signing.json
+/InstallerUI/Package/Payload/SHA256.json

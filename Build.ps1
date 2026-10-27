@@ -27,4 +27,4 @@ if($Target -in @('InstallerUI','InstallerConsole')){
  & (Join-Path $root ($Target+'\Build.ps1')) -SkipNative -BuildDirectory $BuildDirectory
 }
 Write-Host 'Input filter native build completed. Nothing installed or captured.'
-if($Target -eq 'All'){Write-Host 'Installers await the matching Microsoft-signed payload; SDK and example targets are available now.'}
+if($Target -eq 'All'){Write-Host 'Installer targets require the matching Microsoft-signed payload; SDK and example targets are built.'}

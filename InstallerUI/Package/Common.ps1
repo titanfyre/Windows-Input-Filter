@@ -83,7 +83,8 @@ function Assert-InputFilterPayload([string]$Payload,[switch]$AllowDevelopment) {
     }
     foreach($name in @('WindowsInputFilterKeyboard.inf','WindowsInputFilterMouse.inf','WindowsInputFilterControl.inf')){
         $inf=Get-Content -LiteralPath (Join-Path $Payload $name) -Raw
-        if($inf -notmatch '(?im)^\s*AddService\s*=\s*InputFilter\s*,'){throw "Unexpected service identity: $name"}
+        $servicePattern='(?im)^\s*AddService\s*=\s*'+[regex]::Escape($script:InputFilterService)+'\s*,'
+        if($inf -notmatch $servicePattern){throw "Unexpected service identity: $name"}
     }
     if($mode -eq 'Microsoft') {
         if($clockRequired){$sig=Get-AuthenticodeSignature -LiteralPath (Join-Path $Payload 'DemoSessionClock.sys');if($sig.Status -ne 'Valid' -or $sig.SignerCertificate.Subject -notlike 'CN=Microsoft Windows Hardware Compatibility Publisher,*'){throw 'Invalid resident clock signature.'}}
