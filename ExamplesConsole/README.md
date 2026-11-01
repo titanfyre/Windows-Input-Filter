@@ -31,9 +31,11 @@ The essential mouse Y operation is easy to follow:
 
 ```cpp
 auto inputs = Receive(INFINITE);
-for (auto& input : inputs)
-    if (auto* mouse = input.Get<MouseEvent>())
+for (auto& input : inputs) {
+    if (auto* mouse = input.Get<MouseEvent>()) {
         mouse->state.y = -mouse->state.y;
+    }
+}
 auto result = Submit(inputs);
 ```
 
@@ -75,3 +77,15 @@ and acceleration are applied by Windows/the game. `state.y`, buttons and flags s
 zero. The console input handle wakes `Receive` when typing, while
 physical input is forwarded; no forwarding thread, idle polling or cursor-position API
 is needed. Escape or `q` followed by Enter exits.
+
+## Reading an example
+
+Run the EXE directly. Each example prints its action, checks the installed driver,
+then receives inputs, changes the relevant state and forwards the batch. The
+source keeps those steps visible in `main()`; helper functions describe the
+controller transformation. No shared example runner is required.
+
+Examples without settings use `int main()` and need no command-line arguments.
+Controller examples with HID layout or exponent settings keep their documented
+options. The console setup only prevents text selection from blocking console
+writes; it is separate from the driver API.
