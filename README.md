@@ -75,6 +75,12 @@ application per edition at a time.
 
 ## Build the SDK and examples
 
+Demo/evaluation driver source is available; see [driver/README.md](driver/README.md) for
+build instructions and separate evaluation-source terms. Those terms apply to
+Titan-authored driver code. Third-party source licenses and existing application/SDK
+licenses remain applicable. Full/commercial implementation and private signing or
+activation material are excluded.
+
 ```powershell
 .\Build.ps1 -Target SDK
 .\Build.ps1 -Target ExamplesConsole
@@ -83,8 +89,7 @@ application per edition at a time.
 
 Requires Visual Studio 2022 C++ tools, CMake and the Windows SDK. Builds do not
 install or capture devices. Installer source is included; its recovery components
-are supplied as precompiled user-mode binaries. Kernel source, PDBs and private
-signing/build/test material are not published. Installer builds require this
+are supplied as precompiled user-mode binaries. Demo driver source and its build/license notes are documented in [driver/README.md](driver/README.md). Full/commercial driver implementation, PDBs and private signing/test material are excluded. Installer builds require this
 edition's matching signed payload and retain Microsoft signature checks.
 
 ## Origin and licensing
@@ -94,7 +99,7 @@ implementation, with a new API and product identity. The MIT copyright and
 permission notices and the original Interception acknowledgment are retained in
 `LICENSE` and `licenses/NOTICE`. This is not an official Microsoft product.
 
-Source: MIT. Prebuilt kernel packages: separate demo terms in
+User-mode source: MIT. Prebuilt kernel packages: separate demo terms in
 `licenses/BINARY-LICENSE.txt`. For commercial licensing contact **titancsa** on
 Discord. Use only on systems you are authorized to control. The software is
 provided as-is; the author is not responsible for unlawful use or resulting
