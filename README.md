@@ -20,7 +20,7 @@ automatically selects the right transport when you submit an input batch.
 [Download demo ZIP](https://github.com/titanfyre/Windows-Input-Filter/releases/download/v0.1.0.0/Windows-Input-Filter-0.1.0.0-Demo.zip) · [UI installer](https://github.com/titanfyre/Windows-Input-Filter/releases/download/v0.1.0.0/InputFilterSetup.exe) · [Console installer](https://github.com/titanfyre/Windows-Input-Filter/releases/download/v0.1.0.0/InputFilterSetupConsole.exe) · [SDK + source](https://github.com/titanfyre/Windows-Input-Filter/releases/download/v0.1.0.0/Windows-Input-Filter-0.1.0.0-SDK.zip)
 
 [API](docs/API.md) · [Build](docs/BUILD.md) · [Installation](docs/INSTALLATION.md) ·
-[Compatibility](docs/COMPATIBILITY.md) · [Examples](ExamplesConsole/README.md)
+[Compatibility](docs/COMPATIBILITY.md) · [Examples](Examples/Console/README.md)
 
 ## Receive, change, submit
 
