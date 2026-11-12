@@ -2,20 +2,27 @@
   "project": "Windows-Input-Filter",
   "packages": [
     {
-      "directory": "Windows-Input-Filter-CPP-vcpkg",
+      "directory": "packaging/native",
       "central_registry_status": "not_published",
-      "distribution": "GitHub source and downloadable release artifacts"
+      "distribution": "GitHub source and downloadable release artifacts",
+      "source_layout": "Shared native SDK source; registry recipes are kept alongside CMakeLists.txt."
     },
     {
-      "directory": "Windows-Input-Filter-CPP-conan",
+      "directory": "packaging/native",
       "central_registry_status": "not_published",
-      "distribution": "GitHub source and downloadable release artifacts"
+      "distribution": "GitHub source and downloadable release artifacts",
+      "source_layout": "Shared native SDK source; registry recipes are kept alongside CMakeLists.txt."
     },
     {
-      "directory": "Windows-Input-Filter-CPP-nuget",
+      "directory": "packaging/native",
       "central_registry_status": "not_published",
-      "distribution": "GitHub source and downloadable release artifacts"
+      "distribution": "GitHub source and downloadable release artifacts",
+      "source_layout": "Shared native SDK source; registry recipes are kept alongside CMakeLists.txt."
     }
   ],
-  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented."
+  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
+  "native_source_archive": {
+    "url": "https://github.com/titanfyre/Windows-Input-Filter/releases/download/sdk-v0.1.0/windows-input-filter-sdk-0.1.0.tar.gz",
+    "sha256": "bd68addd403e6d97963bdcd35be0c517e5fb6b4f43173a828593de30c3a594b3"
+  }
 }
