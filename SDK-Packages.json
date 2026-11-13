@@ -98,29 +98,28 @@
       "github_directory": "packaging/native"
     },
     "CPP/nuget": {
-      "status": "account_email_confirmed_requires_matching_trusted_publishing_policy",
+      "status": "published_payload_verified",
       "name": "Windows-Input-Filter.Native",
       "version": "0.1.0",
-      "registry_published": false,
-      "consumer_build_verified": true,
+      "url": "https://www.nuget.org/packages/Windows-Input-Filter.Native/0.1.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
       "documentation_bundled": true,
-      "publication_on_hold_by_owner": false,
-      "nuget_publication_status": "ready_requires_trusted_publishing_policy"
+      "publication_on_hold_by_owner": false
     },
     "NET/nuget": {
-      "status": "built_verified_requires_trusted_publishing_policy",
+      "status": "published_payload_verified",
       "name": "WindowsInputFilter.SDK",
       "version": "1.0.0",
-      "directory": "Windows-Input-Filter-NET-nuget",
-      "registry_published": false,
-      "documentation_bundled": true,
-      "url": null,
+      "url": "https://www.nuget.org/packages/WindowsInputFilter.SDK/1.0.0",
+      "public_payload_verified": true,
       "public_consumer_verified": false,
-      "module": "windows_input_filter",
-      "dll_name": "WindowsInputFilterBridge.dll",
-      "api_prefix": "windows_input_filter_",
-      "publication_on_hold_by_owner": false,
-      "nuget_publication_status": "ready_requires_trusted_publishing_policy"
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
     },
     "Python/pypi": {
       "status": "built_fixture_and_production_verified",
@@ -171,7 +170,7 @@
       "api_prefix": "windows_input_filter_"
     },
     "JavaScript/npm": {
-      "status": "registry_publication_requires_action",
+      "status": "registry_rate_limit_wait",
       "name": "windows-input-filter",
       "version": "1.0.0",
       "directory": "Windows-Input-Filter-JavaScript-npm",

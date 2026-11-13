@@ -6,12 +6,12 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | --- | --- | --- |
 | CPP/vcpkg | published_custom_registry | windows-input-filter |
 | CPP/conan | published_custom_source_index | [windows-input-filter](https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index) [Source](packaging/native/) |
-| CPP/nuget | account_email_confirmed_requires_matching_trusted_publishing_policy | Windows-Input-Filter.Native |
-| NET/nuget | built_verified_requires_trusted_publishing_policy | WindowsInputFilter.SDK [Source](Windows-Input-Filter-NET-nuget/) |
+| CPP/nuget | published_payload_verified | [Windows-Input-Filter.Native](https://www.nuget.org/packages/Windows-Input-Filter.Native/0.1.0) |
+| NET/nuget | published_payload_verified | [WindowsInputFilter.SDK](https://www.nuget.org/packages/WindowsInputFilter.SDK/1.0.0) |
 | Python/pypi | built_fixture_and_production_verified | windows-input-filter [Source](Windows-Input-Filter-Python-pypi/) |
 | Python/conda-forge | custom_channel_install_verified_requires_conda_forge_review | [windows-input-filter](https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel) [Source](packaging/conda/) |
 | Rust/cargo | published_install_verified | [windows-input-filter](https://crates.io/crates/windows-input-filter) [Source](Windows-Input-Filter-Rust-cargo/) |
-| JavaScript/npm | registry_publication_requires_action | [windows-input-filter](https://www.npmjs.com/package/windows-input-filter) [Source](Windows-Input-Filter-JavaScript-npm/) |
+| JavaScript/npm | registry_rate_limit_wait | [windows-input-filter](https://www.npmjs.com/package/windows-input-filter) [Source](Windows-Input-Filter-JavaScript-npm/) |
 | Java/maven | published_install_verified | [windows-input-filter](https://central.sonatype.com/artifact/io.github.titancsa/windows-input-filter/1.0.0) [Source](Windows-Input-Filter-Java-maven/) |
 | Java/jitpack | published_install_verified | [windows-input-filter](https://jitpack.io/#titanfyre/Windows-Input-Filter/java-sdk-v1.0.0) [Source](Windows-Input-Filter-Java-maven/) |
 | Go/modules | published_install_verified | [windows-input-filter](https://pkg.go.dev/github.com/titanfyre/Windows-Input-Filter/Windows-Input-Filter-Go-modules@v1.0.0) [Source](Windows-Input-Filter-Go-modules/) |
