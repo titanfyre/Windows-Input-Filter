@@ -176,7 +176,7 @@
       "directory": "Windows-Input-Filter-JavaScript-npm",
       "registry_published": false,
       "documentation_bundled": true,
-      "url": "https://www.npmjs.com/package/windows-input-filter",
+      "url": null,
       "public_consumer_verified": false,
       "module": "windows_input_filter",
       "dll_name": "WindowsInputFilterBridge.dll",
