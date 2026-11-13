@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=77", "wheel>=0.43"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "windows-input-filter"
+version = "1.0.0"
+description = "Direct Windows x64 Windows-Input-Filter input SDK with native receive, edit, send, descriptors and cancellation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+[project.urls]
+Repository = "https://github.com/titanfyre/Windows-Input-Filter"
+Documentation = "https://github.com/titanfyre/Windows-Input-Filter/tree/main/Windows-Input-Filter-Python-pypi/docs"
+[tool.setuptools]
+packages = ["windows_input_filter"]
+[tool.setuptools.package-data]
+windows_input_filter = ["WindowsInputFilterBridge.dll"]
+[tool.setuptools.data-files]
+"share/doc/windows-input-filter" = ["docs/API.md", "examples/info.py", "LICENSE"]
