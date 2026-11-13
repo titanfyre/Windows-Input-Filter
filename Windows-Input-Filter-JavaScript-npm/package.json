@@ -1,0 +1,38 @@
+{
+  "name": "windows-input-filter",
+  "version": "1.0.0",
+  "main": "index.cjs",
+  "types": "index.d.ts",
+  "description": "Direct Windows x64 Windows-Input-Filter SDK for JavaScript and TypeScript",
+  "license": "MIT",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "index.cjs",
+    "index.d.ts",
+    "prebuilds/",
+    "LICENSE",
+    "README.md",
+    "docs/",
+    "examples/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titanfyre/Windows-Input-Filter.git",
+    "directory": "Windows-Input-Filter-JavaScript-npm"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/titanfyre/Windows-Input-Filter/tree/main/Windows-Input-Filter-JavaScript-npm#readme",
+  "bugs": {
+    "url": "https://github.com/titanfyre/Windows-Input-Filter/issues"
+  }
+}
