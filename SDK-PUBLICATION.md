@@ -5,21 +5,21 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | Target | Status | Package / documentation |
 | --- | --- | --- |
 | CPP/vcpkg | published_custom_registry | windows-input-filter |
-| CPP/conan | public_recipe_builds_locally |  |
+| CPP/conan | public_recipe_builds_locally |  [Source](packaging/native/) |
 | CPP/nuget | paused_pending_owner_email_confirmation | Windows-Input-Filter.Native |
-| NET/nuget | binding_not_implemented |  |
-| Python/pypi | binding_not_implemented |  |
-| Python/conda-forge | binding_not_implemented |  |
-| Rust/cargo | binding_not_implemented |  |
-| JavaScript/npm | binding_not_implemented |  |
-| Java/maven | binding_not_implemented |  |
-| Java/jitpack | binding_not_implemented |  |
-| Go/modules | binding_not_implemented |  |
-| Go/pkg-go-dev | binding_not_implemented |  |
-| PowerShell/gallery | binding_not_implemented |  |
-| Dart/pub-dev | prepared_source_native_verified | `windows_input_filter` [Source](Windows-Input-Filter-Dart-pub-dev/) |
-| Ruby/rubygems | binding_not_implemented |  |
-| PHP/packagist | binding_not_implemented |  |
+| NET/nuget | built_verified_publication_on_hold_by_owner | WindowsInputFilter.SDK [Source](Windows-Input-Filter-NET-nuget/) |
+| Python/pypi | built_fixture_and_production_verified | windows-input-filter [Source](Windows-Input-Filter-Python-pypi/) |
+| Python/conda-forge | built_tested_requires_official_review | windows-input-filter [Source](packaging/conda/) |
+| Rust/cargo | published_install_verified | [windows-input-filter](https://crates.io/crates/windows-input-filter) [Source](Windows-Input-Filter-Rust-cargo/) |
+| JavaScript/npm | awaiting_browser_publication_authentication | [windows-input-filter](https://www.npmjs.com/package/windows-input-filter) [Source](Windows-Input-Filter-JavaScript-npm/) |
+| Java/maven | published_install_verified | [windows-input-filter](https://central.sonatype.com/artifact/io.github.titancsa/windows-input-filter/1.0.0) [Source](Windows-Input-Filter-Java-maven/) |
+| Java/jitpack | published_install_verified | [windows-input-filter](https://jitpack.io/#titanfyre/Windows-Input-Filter/java-sdk-v1.0.0) [Source](Windows-Input-Filter-Java-maven/) |
+| Go/modules | published_install_verified | [windows-input-filter](https://pkg.go.dev/github.com/titanfyre/Windows-Input-Filter/Windows-Input-Filter-Go-modules@v1.0.0) [Source](Windows-Input-Filter-Go-modules/) |
+| Go/pkg-go-dev | indexed_verified | [Documentation](https://pkg.go.dev/github.com/titanfyre/Windows-Input-Filter/Windows-Input-Filter-Go-modules@v1.0.0) |
+| PowerShell/gallery | published_install_verified | [WindowsInputFilter](https://www.powershellgallery.com/packages/WindowsInputFilter/1.0.0) [Source](Windows-Input-Filter-PowerShell-gallery/) |
+| Dart/pub-dev | published_install_verified | [windows_input_filter](https://pub.dev/packages/windows_input_filter) [Source](Windows-Input-Filter-Dart-pub-dev/) |
+| Ruby/rubygems | published_install_verified | [windows-input-filter](https://rubygems.org/gems/windows-input-filter) [Source](Windows-Input-Filter-Ruby-rubygems/) |
+| PHP/packagist | composer_source_and_tag_published | [titancsa/windows-input-filter](https://packagist.org/packages/titancsa/windows-input-filter) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 
