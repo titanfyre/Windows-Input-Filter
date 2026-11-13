@@ -1,5 +1,0 @@
-!lib/native/
-!lib/native/WindowsInputFilterBridge.dll
-.dart_tool/
-pubspec.lock
-RELEASED.json
