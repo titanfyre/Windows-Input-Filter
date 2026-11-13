@@ -17,7 +17,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | Go/modules | binding_not_implemented |  |
 | Go/pkg-go-dev | binding_not_implemented |  |
 | PowerShell/gallery | binding_not_implemented |  |
-| Dart/pub-dev | binding_not_implemented |  |
+| Dart/pub-dev | prepared_source_native_verified | `windows_input_filter` [Source](Windows-Input-Filter-Dart-pub-dev/) |
 | Ruby/rubygems | binding_not_implemented |  |
 | PHP/packagist | binding_not_implemented |  |
 
