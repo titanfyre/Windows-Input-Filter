@@ -117,7 +117,7 @@ Les sources, licences, guides API et exemples sont regroupes dans [le depot SDK 
 | PowerShell Gallery | `WindowsInputFilter` | `Install-Module WindowsInputFilter -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `windows_input_filter` | `dart pub add windows_input_filter:1.0.0` |
 | RubyGems | `windows-input-filter` | `gem install windows-input-filter -v 1.0.0` |
-| Packagist | `titancsa/windows-input-filter` | Commande prevue apres publication : `composer require titancsa/windows-input-filter:1.0.0` |
+| Packagist | `titancsa/windows-input-filter` | `composer require titancsa/windows-input-filter:1.0.0` |
 
 Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide complet](https://github.com/TitanCSA/sdk-packages/tree/main/projects/Windows-Input-Filter/README.md). Le guide explique aussi Maven/Gradle, les prerequis et le chargement des DLL. Les pilotes/applications du produit sont installes separement. Les commandes marquees prevues ne sont pas encore disponibles.
 
