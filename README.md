@@ -4,17 +4,6 @@ Receive, edit and forward **keyboard, mouse and compatible HID/XInput/GIP contro
 Windows 10 1709+ / Windows 11 x64. The library manages the capture session and
 automatically selects the right transport when you submit an input batch.
 
-<!-- full-version-contact:start -->
-> [!IMPORTANT]
-> **Get the full version without demo restrictions**
->
-> **Discord username: `titancsa`**
->
-> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message. Ask for the **full version without the demo time limit**, and mention **Windows Input Filter**.
->
-> Tell me whether you need personal use, business integration or OEM redistribution, and ask for pricing and license / activation instructions.
-<!-- full-version-contact:end -->
-
 **Demo 0.1.0.0 — Microsoft-signed kernel driver.** One hour per Windows kernel boot. Use the matching driver, SDK and installers from this edition.
 
 [Download demo ZIP](https://github.com/titanfyre/Windows-Input-Filter/releases/download/v0.1.0.0/Windows-Input-Filter-0.1.0.0-Demo.zip) · [UI installer](https://github.com/titanfyre/Windows-Input-Filter/releases/download/v0.1.0.0/InputFilterSetup.exe) · [Console installer](https://github.com/titanfyre/Windows-Input-Filter/releases/download/v0.1.0.0/InputFilterSetupConsole.exe) · [SDK + source](https://github.com/titanfyre/Windows-Input-Filter/releases/download/v0.1.0.0/Windows-Input-Filter-0.1.0.0-SDK.zip)
@@ -134,3 +123,16 @@ Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide compl
 
 Les anciens imports Go et versions JitPack gardent leurs tags. Pour les anciennes archives SDK, utilise [les liens de remplacement](https://github.com/TitanCSA/sdk-packages/blob/main/release-assets/URL-MIGRATION.json).
 <!-- central-sdk-packages:end -->
+
+## Commercial integration and support
+
+<!-- full-version-contact:start -->
+> [!IMPORTANT]
+> **Get the full version without demo restrictions**
+>
+> **Discord username: `titancsa`**
+>
+> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message. Ask for the **full version without the demo time limit**, and mention **Windows Input Filter**.
+>
+> Tell me whether you need personal use, business integration or OEM redistribution, and ask for pricing and license / activation instructions.
+<!-- full-version-contact:end -->
