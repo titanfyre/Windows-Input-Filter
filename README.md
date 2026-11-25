@@ -3,7 +3,11 @@
 <!-- simple-start:start -->
 Use keyboard, mouse and gamepad input in your Windows app.
 
-**Start here.** Open the install instructions and use this project's matching driver and example.
+[First steps](#first-steps) · [Develop](#sdk-and-packages) · [Maintain](https://github.com/TitanCSA/sdk-packages/blob/main/CONTRIBUTING.md)
+
+## First steps
+
+Open the install instructions and use this project's matching driver and example.
 <!-- simple-start:end -->
 
 <!-- full-version-contact:start -->
@@ -109,32 +113,11 @@ damage, to the extent permitted by applicable law. Signing does not guarantee
 compatibility with every device, game or other installed driver.
 
 <!-- central-sdk-packages:start -->
-## Paquets et installation
+<a name="paquets-et-installation"></a>
 
-Les sources, licences, guides API et exemples sont regroupes dans [le depot SDK dedie](https://github.com/TitanCSA/sdk-packages/tree/main/projects/Windows-Input-Filter). Choisis le paquet a installer puis execute sa commande dans son dossier.
+## SDK and packages
 
-| Registre | Paquet | Installation / utilisation |
-| --- | --- | --- |
-| vcpkg | `windows-input-filter` | `vcpkg install windows-input-filter:x64-windows` |
-| Conan | `windows-input-filter` | `conan install --requires=windows-input-filter/0.1.0 -r titancsa --build=missing -s compiler.cppstd=17` |
-| NuGet | `Windows-Input-Filter.Native` | `Install-Package Windows-Input-Filter.Native -Version 0.1.0` |
-| NuGet | `WindowsInputFilter.SDK` | `dotnet add package WindowsInputFilter.SDK --version 1.0.0` |
-| PyPI | `windows-input-filter` | Commande prevue apres publication : `python -m pip install windows-input-filter==1.0.0` |
-| Conda | `windows-input-filter` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge windows-input-filter` (canal TitanCSA) |
-| crates.io | `windows-input-filter` | `cargo add windows-input-filter@1.0.0` |
-| npm | `windows-input-filter` | Commande prevue apres publication : `npm install windows-input-filter@1.0.0` |
-| Maven Central | `io.github.titancsa:windows-input-filter` | `io.github.titancsa:windows-input-filter:1.0.0 (pom.xml / Gradle)` |
-| JitPack | `com.github.titanfyre:Windows-Input-Filter` | `com.github.titanfyre:Windows-Input-Filter:java-sdk-v1.0.0 (avec le depot JitPack)` |
-| Go Modules | `github.com/titanfyre/Windows-Input-Filter/Windows-Input-Filter-Go-modules` | `go get github.com/titanfyre/Windows-Input-Filter/Windows-Input-Filter-Go-modules@v1.0.0` |
-| pkg.go.dev | `github.com/titanfyre/Windows-Input-Filter/Windows-Input-Filter-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/Windows-Input-Filter/Windows-Input-Filter-Go-modules@v1.0.0` |
-| PowerShell Gallery | `WindowsInputFilter` | `Install-Module WindowsInputFilter -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| pub.dev | `windows_input_filter` | `dart pub add windows_input_filter:1.0.0` |
-| RubyGems | `windows-input-filter` | `gem install windows-input-filter -v 1.0.0` |
-| Packagist | `titancsa/windows-input-filter` | `composer require titancsa/windows-input-filter:1.0.0` |
-
-Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide complet](https://github.com/TitanCSA/sdk-packages/tree/main/projects/Windows-Input-Filter/README.md). Le guide explique aussi Maven/Gradle, les prerequis et le chargement des DLL. Les pilotes/applications du produit sont installes separement. Les commandes marquees prevues ne sont pas encore disponibles.
-
-Les anciens imports Go et versions JitPack gardent leurs tags. Pour les anciennes archives SDK, utilise [les liens de remplacement](https://github.com/TitanCSA/sdk-packages/blob/main/release-assets/URL-MIGRATION.json).
+Choose a language in the [SDK and package guide](https://github.com/TitanCSA/sdk-packages/tree/main/projects/Windows-Input-Filter#readme) for exact install commands and examples. If your example requires a driver or app, install it separately.
 <!-- central-sdk-packages:end -->
 
 ## Commercial integration and support
